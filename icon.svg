@@ -5,14 +5,13 @@
       <stop offset="100%" stop-color="#087A72"/>
     </linearGradient>
   </defs>
-  <!-- Background -->
   <circle cx="60" cy="60" r="60" fill="url(#bg)"/>
-  <!-- Top arrow arc: sweeps from right to left -->
-  <path d="M82 48 A28 28 0 0 0 38 48" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
-  <!-- Top arrowhead pointing left -->
-  <polygon points="38,48 48,36 50,50" fill="#fff"/>
-  <!-- Bottom arrow arc: sweeps from left to right -->
-  <path d="M38 72 A28 28 0 0 0 82 72" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
-  <!-- Bottom arrowhead pointing right -->
-  <polygon points="82,72 72,84 70,70" fill="#fff"/>
+  <!-- Top arrow: pointing right -->
+  <line x1="34" y1="46" x2="82" y2="46" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <line x1="72" y1="36" x2="86" y2="46" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <line x1="72" y1="56" x2="86" y2="46" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <!-- Bottom arrow: pointing left -->
+  <line x1="86" y1="74" x2="38" y2="74" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <line x1="48" y1="64" x2="34" y2="74" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <line x1="48" y1="84" x2="34" y2="74" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
 </svg>
